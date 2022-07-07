@@ -3,7 +3,7 @@ import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
     ${reset}
-    
+
     html{
         font-size: 62.5%;
     }
@@ -18,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1.4;
         background-color: ${({ theme }) => theme.bgsubColor};
         transition: all 0.2s;
+        font-family: 'Noto Sans KR', sans-serif;
     }
 
     input, button{
