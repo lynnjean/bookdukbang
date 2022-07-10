@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import LoginPage from './pages/LoginPage';
-// import Input from './components/Input';
-// import Button from './components/Button';
 
 const Wrapper = styled.div`
 	height: 100%;
