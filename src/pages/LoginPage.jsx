@@ -4,10 +4,10 @@ import MainTitle from '../components/MainTitle';
 import Footer from '../components/Footer';
 import styled from 'styled-components';
 import BookImg from '../assets/BookImg.png';
-import { BigBtnDiv } from '../components/Button';
-import { BigBtn } from '../components/Button';
-import { FormWrap } from '../components/Input';
-import { InputStyle } from '../components/Input';
+import { BigBtnDiv } from '../components/Button.style';
+import { BigBtn } from '../components/Button.style';
+import InputWrap from '../components/InputWrap.style';
+import { InputStyle } from '../components/Input.style';
 // 이메일 또는 비밀번호가 일치하지 않았을때 import한다.
 // import { ErrorLabelstyle } from '../components/Input';
 // import { ErrorInput } from '../components/Input';
@@ -64,8 +64,8 @@ function LoginPage() {
 
 			<MainTitle />
 
-			<FormWrap>
-				<InputStyle type="text" placeholder="아이디를 입력하세요." />
+			<InputWrap>
+				<InputStyle type="email" placeholder="아이디를 입력하세요." />
 				<InputStyle
 					type="password"
 					placeholder="비밀번호를 입력하세요."
@@ -80,7 +80,7 @@ function LoginPage() {
 							*이메일 또는 비밀번호가 일치하지 않습니다.
 						</ErrorLabelText>
 					</ErrorLabelstyle> */}
-			</FormWrap>
+			</InputWrap>
 
 			{/* input에 아무것도 입력되지않았을때는 버튼을 비활성화되야 합니다. */}
 			<BigBtnDiv>

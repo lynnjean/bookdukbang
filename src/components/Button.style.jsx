@@ -20,6 +20,9 @@ const BigBtn = styled.button`
 	box-sizing: border-box;
 	margin-top: 3rem;
 	display: block;
+	/* '로그인', '회원가입', '프로필 정보' 페이지에서 아무것도 입력되지 않으면 버튼이 흐려집니다.
+	opacity: 0.7;
+	 */
 `;
 
 // 2.  '피드-팔로워 없음', '피드-팔로워 있음' 페이지에 사용되는 버튼 사이즈

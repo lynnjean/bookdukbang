@@ -1,19 +1,18 @@
 import styled from 'styled-components';
 
-// FormWrap은 input을 사용하는 모든 곳에서 사용된다.
-const FormWrap = styled.form`
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1rem;
-	max-width: 55rem;
-	margin: 3rem auto 0;
-	@media (max-width: 390px) {
-		max-width: 32rem;
-	}
-`;
+// // FormWrap은 input을 사용하는 모든 곳에서 사용된다.
+// const FormWrap = styled.form`
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	gap: 1rem;
+// 	max-width: 55rem;
+// 	margin: 3rem auto 0;
+// 	@media (max-width: 390px) {
+// 		max-width: 32rem;
+// 	}
+// `;
 
-// 모든
 const InputStyle = styled.input`
 	width: 100%;
 	font-weight: 400;
@@ -62,7 +61,6 @@ const ErrorInput = styled(InputStyle)`
 `;
 
 export {
-	FormWrap,
 	InputStyle,
 	Labelstyle,
 	LabelText,
