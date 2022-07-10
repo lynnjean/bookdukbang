@@ -1,17 +1,20 @@
 import React from 'react';
-import Input from './components/Input';
-import Button from './components/Button';
-import Buttontwo from './components/Buttontwo';
-import Profile from './components/Profile';
+import styled from 'styled-components';
+import LoginPage from './pages/LoginPage';
+// import Input from './components/Input';
+// import Button from './components/Button';
+
+const Wrapper = styled.div`
+	height: 100%;
+	width: 100%;
+	background-color: #f5f5f5;
+`;
 
 function App() {
 	return (
-		<div>
-			<Input />
-			<Button />
-			<Buttontwo />
-			<Profile />
-		</div>
+		<Wrapper>
+			<LoginPage />
+		</Wrapper>
 	);
 }
 

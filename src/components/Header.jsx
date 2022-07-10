@@ -10,7 +10,7 @@ const HeaderStyle = styled.header`
 
 const LogoImg = styled.img`
 	width: 21.5rem;
-	@media (max-width: 430px) {
+	@media (max-width: 390px) {
 		width: 11.6rem;
 	}
 `;

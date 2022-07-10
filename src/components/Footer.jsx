@@ -12,7 +12,10 @@ const FooterPStyle = styled.p`
 	font-weight: 300;
 	font-size: 1.6rem;
 	padding: 4rem 0;
-	@media (max-width: 430px) {
+	@media (max-width: 390px) {
+		/* 모바일 버전에서는 해당 글씨가 안보이게 한다. */
+		display: none;
+		/* 모바일 버전의 splash페이지에서의 해당 글씨 사이즈 */
 		font-size: 1.2rem;
 	}
 `;
