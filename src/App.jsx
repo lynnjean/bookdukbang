@@ -1,10 +1,14 @@
 import React from 'react';
+import LoginPage from './pages/LoginPage';
+
+// const Wrapper = styled.div`
+// 	height: 100%;
+// 	width: 100%;
+// 	background-color: #f5f5f5;
+// `;
+
 function App() {
-    return (
-        <div>
-            <h1>test2</h1>
-        </div>
-    );
+	return <LoginPage />;
 }
 
 export default App;

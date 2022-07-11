@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeaderLogo from '../assets/logo_type01.png';
-import Wrap from './Wrap';
+import HeaderLogo from '../../assets/HeaderLogo.png';
+import Wrap from '../Wrap';
 
 const HeaderStyle = styled.header`
 	background-color: ${({ theme }) => theme.bgMainColor};
@@ -10,7 +10,7 @@ const HeaderStyle = styled.header`
 
 const LogoImg = styled.img`
 	width: 21.5rem;
-	@media (max-width: 430px) {
+	@media (max-width: 390px) {
 		width: 11.6rem;
 	}
 `;
