@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from '../components/Header';
+import Header from '../components/Common/Header';
 import MainTitle from '../components/MainTitle';
-import Footer from '../components/Footer';
+import Footer from '../components/Common/Footer';
 import styled from 'styled-components';
 import BookImg from '../assets/BookImg.png';
-import { BigBtn } from '../components/Button.style';
+import { BigBtn } from '../components/Common/Button.style';
 import FormWrap from '../components/FormWrap.style';
-import { InputStyle } from '../components/Input.style';
-import { LabelStyle } from '../components/Input.style';
-import { InputDiv } from '../components/Input.style';
+import { InputStyle } from '../components/Common/Input.style';
+import { LabelStyle } from '../components/Common/Input.style';
+import { InputDiv } from '../components/Common/Input.style';
 // 이메일 또는 비밀번호가 일치하지 않았을때 import한다.
 //import { ErrorText } from '../components/Input.style';
 
