@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeaderLogo from '../assets/logo_type01.png';
+import HeaderLogo from '../assets/HeaderLog.png';
 import Wrap from './Wrap';
 
 const HeaderStyle = styled.header`
