@@ -4,6 +4,7 @@ import MainTitle from '../components/MainTitle';
 import Footer from '../components/Common/Footer';
 import styled from 'styled-components';
 import BookImg from '../assets/BookImg.png';
+import { BigBtnDiv } from '../components/Common/Button.style';
 import { BigBtn } from '../components/Common/Button.style';
 import FormWrap from '../components/FormWrap.style';
 import { InputStyle } from '../components/Common/Input.style';
@@ -88,8 +89,9 @@ function LoginPage() {
 						*이메일 또는 비밀번호가 일치하지 않습니다.
 					</ErrorText> */}
 				</InputDiv>
-
-				<BigBtn>로그인</BigBtn>
+				<BigBtnDiv>
+					<BigBtn>로그인</BigBtn>
+				</BigBtnDiv>
 			</FormWrap>
 
 			<SubTitle>
