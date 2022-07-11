@@ -65,17 +65,17 @@ function LoginPage() {
 
 			<FormWrap>
 				<InputDiv>
-					<LabelStyle htmlFor="id" className="blind">
+					<LabelStyle htmlFor="id" className="hide">
 						아이디
 					</LabelStyle>
 					<InputStyle
-						type="text"
+						type="email"
 						id="id"
 						placeholder="아이디를 입력하세요."
 					/>
 				</InputDiv>
 				<InputDiv>
-					<LabelStyle htmlFor="password" className="blind">
+					<LabelStyle htmlFor="password" className="hide">
 						비밀번호
 					</LabelStyle>
 					<InputStyle

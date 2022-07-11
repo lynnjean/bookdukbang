@@ -20,8 +20,8 @@ const LabelStyle = styled.label`
 	margin-bottom: 0.5rem;
 
 	// IR 기법
-	&.blind {
-		${({ theme }) => theme.a11yHidden};
+	&.hide {
+		${({ theme }) => theme.a11yHidden()};
 	}
 `;
 

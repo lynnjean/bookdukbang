@@ -53,11 +53,11 @@ const LittleBtn = styled(ButtonStyle)`
 `;
 
 // 4. '게시물 상세 + 댓글', '채팅' 페이지에 사용되는 버튼 사이즈인데, 댓글이나 채팅이 입력되지 않았을때 버튼
-const NoLittleBtnDiv = styled.div`
+const NoInputLittleBtnDiv = styled.div`
 	max-width: 12rem;
 	margin: 3rem auto 0;
 `;
-const NoLittleBtn = styled(ButtonStyle)`
+const NoInputLittleBtn = styled(ButtonStyle)`
 	background-color: ${({ theme }) => theme.whiteColor};
 	color: ${({ theme }) => theme.mainColor};
 	padding: 1.3rem 0;
@@ -74,6 +74,6 @@ export {
 	SmallBtn,
 	LittleBtnDiv,
 	LittleBtn,
-	NoLittleBtnDiv,
-	NoLittleBtn,
+	NoInputLittleBtnDiv,
+	NoInputLittleBtn,
 };
