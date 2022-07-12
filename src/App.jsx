@@ -1,5 +1,6 @@
 import React from 'react';
-import LoginPage from './pages/LoginPage';
+// import LoginPage from './pages/LoginPage';
+import MyProfile from './pages/MyProfile';
 
 // const Wrapper = styled.div`
 // 	height: 100%;
@@ -8,7 +9,12 @@ import LoginPage from './pages/LoginPage';
 // `;
 
 function App() {
-	return <LoginPage />;
+	return (
+		<>
+			{/* <LoginPage /> */}
+			<MyProfile />
+		</>
+	);
 }
 
 export default App;
