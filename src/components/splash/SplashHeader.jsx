@@ -1,10 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeaderLogo from '../../assets/HeaderLogo.png';
-import Wrap from './Wrap';
+import HeaderLogo from '../../assets/SplashHeaderLogo.png';
+import Wrap from '../Common/Wrap';
 
 const HeaderStyle = styled.header`
-	background-color: ${({ theme }) => theme.bgMainColor};
 	padding: 2.7rem 0;
 `;
 
@@ -14,8 +13,7 @@ const LogoImg = styled.img`
 		width: 11.6rem;
 	}
 `;
-
-function Header() {
+function Splash() {
 	return (
 		<HeaderStyle>
 			<Wrap>
@@ -29,4 +27,4 @@ function Header() {
 	);
 }
 
-export default Header;
+export default Splash;

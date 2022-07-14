@@ -5,6 +5,10 @@ import Wrap from './Wrap';
 const FooterStyle = styled.footer`
 	display: flex;
 	justify-content: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 `;
 
 const FooterPStyle = styled.p`

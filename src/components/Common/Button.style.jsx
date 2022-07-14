@@ -15,7 +15,7 @@ const ButtonStyle = styled.button`
 const BigBtnDiv = styled.div`
 	max-width: 55rem;
 	margin: 3rem auto 0;
-	@media (max-width: 390px) {
+	@media ${({ theme }) => theme.size.mobile} {
 		max-width: 32rem;
 	}
 `;
@@ -72,6 +72,31 @@ const NoInputLittleBtn = styled(ButtonStyle)`
 	border: 1px solid ${({ theme }) => theme.mainColor};
 `;
 
+//5. 404 페이지에 사용되는 버튼 스타일
+const ErrorBtnDiv = styled.div`
+	max-width: 17rem;
+	margin: 3rem auto 0;
+	display: none;
+	@media ${({ theme }) => theme.size.mobile} {
+		display: block;
+	}
+`;
+const ErrorBtn = styled(ButtonStyle)`
+	padding: 1rem 0;
+	font-size: 2rem;
+`;
+
+// 6. Splash 페이지에서 사용되는 버튼 스타일
+const SplashBtn = styled(ButtonStyle)`
+	padding: 2.8rem 0;
+	font-size: 3.6rem;
+	margin-top: 5.5rem;
+	@media ${({ theme }) => theme.size.mobile} {
+		padding: 1.7rem 0;
+		font-size: 2rem;
+	}
+`;
+
 export {
 	BigBtnDiv,
 	ButtonStyle,
@@ -84,4 +109,7 @@ export {
 	LittleBtn,
 	NoInputLittleBtnDiv,
 	NoInputLittleBtn,
+	ErrorBtnDiv,
+	ErrorBtn,
+	SplashBtn,
 };
